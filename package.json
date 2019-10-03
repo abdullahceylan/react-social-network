@@ -73,7 +73,7 @@
     "redux-thunk": "^2.2.0",
     "reflect-metadata": "^0.1.10",
     "save": "^2.3.0",
-    "snyk": "^1.88.0",
+    "snyk": "^1.230.5",
     "typeface-roboto": "0.0.50",
     "uuid": "^3.0.1"
   },
