@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.25.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -87,8 +87,86 @@ patch:
   'npm:tunnel-agent:20170305':
     - node-sass-chokidar > node-sass > request > tunnel-agent:
         patched: '2018-06-27T02:25:12.851Z'
+    - node-sass-chokidar > node-sass > node-gyp > request > tunnel-agent:
+        patched: '2022-10-07T22:14:12.385Z'
   'npm:lodash:20180130':
     - npm > cli-table2 > lodash:
         patched: '2018-07-03T05:04:45.476Z'
     - npm > npm-audit-report > cli-table2 > lodash:
         patched: '2018-07-03T05:04:45.476Z'
+  'npm:extend:20180424':
+    - npm > request > extend:
+        patched: '2022-10-07T22:14:12.385Z'
+    - node-sass-chokidar > node-sass > request > extend:
+        patched: '2022-10-07T22:14:12.385Z'
+    - npm > node-gyp > request > extend:
+        patched: '2022-10-07T22:14:12.385Z'
+    - npm > npm-registry-client > request > extend:
+        patched: '2022-10-07T22:14:12.385Z'
+    - snyk > snyk-docker-plugin > request > extend:
+        patched: '2022-10-07T22:14:12.385Z'
+    - node-sass-chokidar > node-sass > node-gyp > request > extend:
+        patched: '2022-10-07T22:14:12.385Z'
+    - npm > npm-lifecycle > node-gyp > request > extend:
+        patched: '2022-10-07T22:14:12.385Z'
+    - snyk > proxy-agent > pac-proxy-agent > get-uri > extend:
+        patched: '2022-10-07T22:14:12.385Z'
+    - npm > libcipm > npm-lifecycle > node-gyp > request > extend:
+        patched: '2022-10-07T22:14:12.385Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2022-10-07T22:14:12.385Z'
+    - npm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-07T22:14:12.385Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2022-10-07T22:14:12.385Z'
+  SNYK-JS-LODASH-567746:
+    - redux > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - react-redux > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - react-string-replace > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - redux-actions > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - snyk > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - '@types/redux-immutable > redux > lodash':
+        patched: '2022-10-07T22:14:12.385Z'
+    - node-sass-chokidar > sass-graph > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - save > async > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - snyk > inquirer > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - snyk > snyk-php-plugin > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - firebase > @firebase/firestore > grpc > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - node-sass-chokidar > node-sass > sass-graph > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - snyk > snyk-nuget-plugin > xml2js > xmlbuilder > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+    - node-sass-chokidar > node-sass > gaze > globule > lodash:
+        patched: '2022-10-07T22:14:12.385Z'
+  'npm:stringstream:20180511':
+    - npm > request > stringstream:
+        patched: '2022-10-07T22:14:12.385Z'
+    - node-sass-chokidar > node-sass > request > stringstream:
+        patched: '2022-10-07T22:14:12.385Z'
+    - npm > node-gyp > request > stringstream:
+        patched: '2022-10-07T22:14:12.385Z'
+    - npm > npm-registry-client > request > stringstream:
+        patched: '2022-10-07T22:14:12.385Z'
+    - node-sass-chokidar > node-sass > node-gyp > request > stringstream:
+        patched: '2022-10-07T22:14:12.385Z'
+    - npm > npm-lifecycle > node-gyp > request > stringstream:
+        patched: '2022-10-07T22:14:12.385Z'
+    - npm > libcipm > npm-lifecycle > node-gyp > request > stringstream:
+        patched: '2022-10-07T22:14:12.385Z'
