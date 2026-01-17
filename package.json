@@ -14,7 +14,7 @@
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
     "deploy:firebase": "npm run build && firebase deploy",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "author": "Amir Movahedi",
@@ -44,7 +44,7 @@
     "moment": "^2.18.1",
     "morgan": "^1.8.1",
     "node-sass-chokidar": "0.0.3",
-    "npm": "^5.6.0",
+    "npm": "^6.10.1",
     "npm-run-all": "^4.1.2",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
@@ -73,9 +73,9 @@
     "redux-thunk": "^2.2.0",
     "reflect-metadata": "^0.1.10",
     "save": "^2.3.0",
-    "snyk": "^1.88.0",
     "typeface-roboto": "0.0.50",
-    "uuid": "^3.0.1"
+    "uuid": "^3.0.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.3",

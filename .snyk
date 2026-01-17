@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -87,6 +87,10 @@ patch:
   'npm:tunnel-agent:20170305':
     - node-sass-chokidar > node-sass > request > tunnel-agent:
         patched: '2018-06-27T02:25:12.851Z'
+    - npm > node-gyp > request > tunnel-agent:
+        patched: '2026-01-17T13:47:14.491Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: npm > node-gyp > request > tunnel-agent
   'npm:lodash:20180130':
     - npm > cli-table2 > lodash:
         patched: '2018-07-03T05:04:45.476Z'
